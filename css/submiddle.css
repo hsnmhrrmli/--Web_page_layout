@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;500;600;700;800;900&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* MOBILE */
+
+@media (min-width: 320px) and (max-width:991px) {
+
+.myBody {
+    padding: 10vw 0 3em;
+    background: #EFEFEF;
+    width:100.26vw;
+    height: 112.8vw;
+    /* display: flex;
+    align-items: center; */
+    
+  }
+  .myBody .myHead2 {
+    width: 68.5vw;
+    height: 18.4vw;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 6.93vw;
+    line-height: 101.38%;
+    color: #000000;
+    margin-left: 8.4vw;
+    margin-bottom: 2.93vw;
+  }
+  .myBody .box {
+    width: 82.13vw;
+    height: 66.13vw;
+    margin-left: 8.7vw;
+    border-radius: 3.73vw;
+    padding: 1.3vw;
+    padding-left: 2.7vw;
+    -webkit-box-shadow: 1px 1px 20px 0px #00000040;
+            box-shadow: 1px 1px 20px 0px #00000040;
+    background-color: white;
+    /* margin-bottom: 14.13vw; */
+  }
+  .myBody .box .top {
+    width: 70.93vw;
+    height: 29.6vw;
+    left: 11.8vw;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight:106.66vw;
+    font-size: 2.66vw;
+    line-height: 4vw;
+    color: #000000;
+    padding-right: 0vw;
+    padding-top: 1.3vw;
+    margin-bottom: 1.04vw;
+    margin-left: 2vw;
+    margin-top: 2vw;
+  }
+  .myBody .box .bottom {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .myBody .box .bottom .left {
+    width: 13.19vw;
+    height: 11.7vw;
+    left: 10.4vw;
+  }
+  .myBody .box .bottom .left img {
+    width: 21.33vw;
+    height: 22.4vw;
+    margin-left: 3vw;
+    /* margin-top:5.73vw; */
+    margin-bottom: 3.46vw;
+  }
+  .myBody .box .bottom .right {
+    margin-left: 2vw;
+  }
+  .myBody .box .bottom .right p {
+    width: 43.864vw;
+    height: 8.728vw;
+    /* left: 25.7vw; */
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: 186.66vw;
+    font-size: 3.73vw;
+    line-height: 101.38%;
+    color: #000000;
+    margin-bottom: -0.3vw;
+    margin-top: 10.416vw;
+    margin-left: 9vw;
+  }
+  .myBody .box .bottom .right img {
+    width: 3.976vw;
+    height: 4.586vw;
+    /* left: 25.7vw; */
+    margin-left: 9vw;
+  }
+}

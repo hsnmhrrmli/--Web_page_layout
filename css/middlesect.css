@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;500;600;700;800;900&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* DESKTOP and TABLET */
+
+
+@media (min-width: 992px)  { 
+.program-course {
+    margin-top: 13.88vw;
+    margin-bottom: 3.47vw;
+  }
+  
+  .program-course .head {
+    margin-left: 8.4vw;
+    margin-bottom: 6.94vw;
+  }
+  
+  .program-course .head h1 {
+    font-size: 3.819vw;
+    line-height: 3.87vw;
+    font-weight: 48.611vw;
+    font-family: 'Roboto Slab', serif;
+  }
+  
+  .program-course .myitems {
+    margin-left: 6.944vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  
+  .program-course .myitems .item {
+    border-radius: 30%;
+    width: 27.70vw;
+    margin: 0 1.38vw;
+  }
+  
+  .program-course .myitems .item .box {
+    border-radius: 2.083vw;
+    margin-bottom: 2.083vw;
+  }
+  
+  .program-course .myitems .item .top {
+    -webkit-box-shadow: 0.0694vw 0.0694vw 1.04vw 0px #00000040;
+            box-shadow: 0.0694vw 0.0694vw 1.04vw 0px #00000040;
+    border-radius: 2.083vw;
+  }
+  
+  .program-course .myitems .item .bottom {
+    padding: 0.694vw 1.3888vw;
+  }
+  
+  .program-course .myitems .item .bottom h3 {
+    font-size: 2.083vw;
+    line-height: 2.70vw;
+    font-weight: 48.611vw;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 2.083vw;
+  }
+  
+  .program-course .myitems .item .bottom span {
+    font-weight: 27.77vw;
+    font-size: 1.736vw;
+    line-height: 2.256vw;
+    font-family: 'Roboto Slab', serif;
+  }
+  
+  .program-course .myitems .item .bottom .first {
+    margin-bottom: 0.694vw;
+    line-height: 2.02vw;
+  }
+  img{
+    width: 27.708vw;
+    height: 11.11vw;
+  }
+}
+
+/* MOBIL */
+
+
+@media (min-width: 320px) and (max-width:991px) {
+ html,body{
+   overflow-x: hidden;
+ }
+ 
+  img{
+    width: 49.33vw;
+    height: 19.88vw;
+  }
+
+  
+  .bottom{
+    width: 43.15vw;;
+    height: 18.92vw;
+  }
+  .program-course {
+    margin-top: 13.88vw;
+    margin-bottom: 3.47vw;
+    /* margin-left:14vw ; */
+    width: 100vw;
+    
+  }
+  span{
+    width:43.15vw;
+  }
+    .program-course .head {
+    width: 107.3vw;
+    height: 11vw;
+    margin-left: 8.62vw;
+    margin-bottom: 8.88vw;
+  }
+  
+   .program-course .head h1 {
+    font-size: 6.93vw;
+    line-height: 101.38%;
+    height: 11.57vw;
+    font-weight: 48.611vw;
+    font-family: 'Roboto Slab', serif;
+  } 
+  
+  .program-course .myitems {
+    margin-left: 25vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  
+  .program-course .myitems .item {
+    border-radius: 30%;
+   
+  }
+  
+  .program-course .myitems .item .box {
+    border-radius: 2.083vw;
+    margin-bottom: 2.083vw;
+  }
+  
+  .program-course .myitems .item .top {
+    -webkit-box-shadow: 0.0694vw 0.0694vw 1.04vw 0px #00000040;
+            box-shadow: 0.0694vw 0.0694vw 1.04vw 0px #00000040;
+    border-radius: 4.4vw;
+   
+  }
+  
+  .program-course .myitems .item .bottom {
+    padding: 0.694vw 1.3888vw;
+  }
+  
+  .program-course .myitems .item .bottom h3 {
+    font-size: 3.73vw;
+    font-weight: 186.66vw;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 2.083vw;
+    width: 55vw;
+    height: 4.611vw;
+  }
+  
+  .program-course .myitems .item .bottom span {
+    font-weight: 101.5vw;
+    /* width: 43.15vw; */
+    font-size: 3.2vw;
+    /* line-height:7.45vw; */
+    font-family: 'Roboto Slab', serif;
+  }
+  
+  .program-course .myitems .item .bottom .first {
+    margin-bottom: 3vw;
+    line-height: 3.44vw;
+    
+  }
+ 
+}
